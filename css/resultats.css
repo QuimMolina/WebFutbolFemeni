@@ -1,0 +1,12 @@
+#resultatslink{
+    background-color:green;
+}
+table{
+    position: relative;
+    top:20px;
+    left:40%;
+}
+
+table,tr,td {
+    text-align: center;
+}

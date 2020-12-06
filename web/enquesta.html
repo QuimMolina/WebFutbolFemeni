@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale 1.0">
+        <meta name="keywords" content="HTML">
+        <link rel="icon" href="../img/favicon.PNG">
+        <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/enquesta.css"/>
+        <title>WEB FUTBOL FEMENÍ</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                
+                <a  target="_blank" href="https://www.iberdrola.es/"><img id="mainBanner" src="../img/iberdrola.png" alt="iberdolalogo" height="80"></a>
+        
+            </div>
+            <hr>
+            <div id="menu">
+            <nav>
+                <a class="cajaizquierda" id="classiflink" href="./classif.html">Classificació</a>
+                <a class="cajaizquierda" id="resultatslink" href="./resultats.html">Resultats</a>
+                <a class="cajaderecha" id="galerialink" href="./galeria.html">Galeria Audiovisual</a>
+                <a class="cajaderecha" id="enquestalink" href="./enquesta.html">Enquesta de statisfacció</a>
+                <a id="home" href="../index.html"><img src="../img/home.png" alt="boton home" height="50"></a>
+            </nav>
+            </div>
+        <hr>
+        <br>
+        </header>
+    <hr>
+    <br>
+    <main>
+        <table>
+            <tr>
+            <td>
+            <form name="Enquesta" action="./validaenquesta.php" method="POST">
+                <p>
+                    <label for="idEmail"><b>Correo électronico</b></label>
+                    <input required type="email" id="idEmail" name="correo" placeholder="Introduce tu correo electrónico">
+                </p>
+                <p>
+                    <label for="name"><b>Nombre Completo</b></label>
+                    <input required id="name" type="text" placeholder="Introduce tu nombre" name="uname">
+                </p>
+                <p>
+                    <label for="nota"><b>Valora del 1 hasta el 5</b></label>
+                    <input required id="nota" name="nota" type="number" min="1" max="5" step="1" >
+                </p>
+                <p>
+                    <label for="valoracio"><b>Valoración global</b></label>
+                    <select required id="valoracio" name="Valoració">
+                        <option value="Excelente" selected>Excelente</option>
+                        <option value="Notable" >Notable</option>
+                        <option value="Regular">Regular</option>
+                        <option value="Mala">Mala</option>
+                      </select>
+                </p>
+               <p>
+                    <label for="inColor1"><b>De que color quieres la web?</b></label>
+                    <input id="inColor1" name="color1" type="color" value="#FFFFFF">
+               </p>
+               <p>
+                    <label></label>
+                    <textarea id="observaciones" name="observaciones" rows="10" cols="40" placeholder="Introduce cualquier Observación/comentario" autofocus size="50" maxlength="150"></textarea>
+               </p>
+                <p>
+                    <button type="submit">Enviar</button>   <input value="Limpia el Formulario" type="reset">
+                </p>
+            </form>
+            </td>
+            </tr>
+            </table>
+    </main>
+
+<footer>
+    <div>Creado por kim: +34 698 43 10 33 / <a href="mailto:quimmolinav@gmail.com">quimmolinav@gmail.com</a></div>
+    <div>  &copy; 2020-2021</div>
+</footer>
+</body>
+</html>

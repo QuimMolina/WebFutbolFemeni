@@ -1,0 +1,41 @@
+main nav {
+    margin-left:-480px;
+}
+
+main nav a {
+    background-color: black;
+    padding: 10px;
+}
+#leermas {
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    top: 24px;
+
+}
+
+#leermas:hover {
+    background-color: white;
+    border: 1px solid black;
+    color:black;
+}
+
+main a:hover{
+    background-color: white;
+    border: 1px solid black;
+    color:black;
+}
+
+main {
+    text-align: center;
+    margin-left:25%;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+

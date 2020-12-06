@@ -1,0 +1,20 @@
+main {
+    position: relative;
+    top:50px;
+}
+
+table, td, th {
+    border: 1px solid black;
+  }
+
+  table {
+    border-collapse: separate;
+    table-layout: fixed;
+    width: 1700px;
+    position: relative;
+    left: 9%;
+  }
+
+  #classiflink{
+    background-color: blue;
+}
